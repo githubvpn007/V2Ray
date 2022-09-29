@@ -31,6 +31,7 @@ V2Ray是在Shadowsocks的作者被请喝茶之后出现的一个开源项目，�
 <br>
 
 **搭建步骤**  
+
 [1.购买一台境外服务器](#2、美国VPS Hostwinds 购买)  
 [2.使用 ssh 软件链接远程服务器](#3、远程连接Hostwinds VPS)  
 [3.执行V2ray 安装命令](#4、VPS一键脚本搭建V2Ray)  
