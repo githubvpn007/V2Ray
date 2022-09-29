@@ -32,15 +32,15 @@ V2Ray是在Shadowsocks的作者被请喝茶之后出现的一个开源项目，�
 
 **搭建步骤**  
 
-[1.购买一台境外服务器](#2、美国VPS Hostwinds 购买)  
-[2.使用 ssh 软件链接远程服务器](#3、远程连接Hostwinds VPS)  
-[3.执行V2ray 安装命令](#4、VPS一键脚本搭建V2Ray)  
-[4.配置客户端实现连接外网](#5、V2Ray客户端配置)  
+[1.购买一台境外服务器](#美国VPS Hostwinds 购买)    
+[2.使用 ssh 软件链接远程服务器](#远程连接Hostwinds VPS)  
+[3.执行V2ray 安装命令](#VPS一键脚本搭建V2Ray)  
+[4.配置客户端实现连接外网](#V2Ray客户端配置)  
 
 <br>
 <br>
 
-# 2、美国VPS Hostwinds 购买
+# 美国VPS Hostwinds 购买
 
 [Hostwinds](https://www.hostwinds.com/11003.html) 是一家美国主机商，成立于 2010 年，国内站长使用较多的是 Hostwinds 美国 VPS 主机产品。由于 Hostwinds 美国 VPS 主机采用的是 SSD 硬盘，而且所有方案都有全球 CDN 加速功能，因而也备受用户青睐。 如今 Hostwinds 主机商提供的产品方案也非常丰富，包括虚拟主机、云主机、VPS主机以及独立主机等。目前 Hostwinds 主要有达拉斯、西雅图 2 个数据中心，其中西雅图数据中心在国内访问速度最快。现在 Hostwinds 提供免费更换IP了，没错，就是免费，免费，随意更换，可以一键解决 IP 被墙的问题了。通过 Hostwinds 搭建 V2ray 是不错的选择，今天就讲解下 Hostwinds 搭建 V2ray 教程。
 
@@ -87,7 +87,7 @@ V2Ray是在Shadowsocks的作者被请喝茶之后出现的一个开源项目，�
 
 
 
-# 3、远程连接Hostwinds VPS  
+# 远程连接Hostwinds VPS  
 
 首先你需要通过 SSH 连接 [Hostwinds](https://www.hostwinds.com/11003.html) 的 Linux VPS，连接 Linux VPS 需要使用 SSH 工具，这里推荐使用 Xshell 可以复制粘贴命令，Xshell 本身是需要付款的，作为中国人当然是使用 XX 版了，这里提供下载包如下所示：  
 
@@ -119,7 +119,7 @@ Xshell 下载地址：[Xshell](https://github.com/githubvpn007/v2rayNvpn/release
 ![2](https://camo.githubusercontent.com/bd67dd257edcfbb88e3798c3c8e261ca50f9bc6455bfaf37d6680e7bf3a978a8/68747470733a2f2f696d67323031382e636e626c6f67732e636f6d2f626c6f672f313736353439362f3230323030322f313736353439362d32303230303231383132343331343736362d313634393931393432382e6a7067)  
 
 
-# 4、VPS一键脚本搭建V2Ray  
+# VPS一键脚本搭建V2Ray  
 
 在上图的待输入内容处，粘贴下面的命令（复制下面的命令，然后在 Xshell 待输入内容处“鼠标右键”/“粘贴”即可）：
 
@@ -176,7 +176,7 @@ OK，出现这个界面就表示 V2Ray 已经安装完成了。
 只是还想再啰嗦一下，如果你是使用国际大厂的 VPS，并且是按照此教程流程来安装 V2Ray 的话，请自行在安全组 (防火墙) 开放端口和 UDP 协议 (如果你要使用含有 mKCP 的传输协议)  
 
 
-# 5、V2Ray客户端配置  
+# V2Ray客户端配置  
 
 **下载地址**：[下载v2rayN-Core.zip](https://github.com/2dust/v2rayN/releases)  
 
