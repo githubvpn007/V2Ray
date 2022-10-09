@@ -37,17 +37,7 @@ V2Ray是在Shadowsocks的作者被请喝茶之后出现的一个开源项目，�
 [3.执行V2ray 安装命令](#VPS一键脚本搭建V2Ray)  
 [4.配置客户端实现连接外网](#V2Ray客户端配置)  
 
-<br>  
-<br>  
 
-**更多搭建教程:**  
-
-[SSR一键安装脚本使用教程](https://xiaoheicn.top/ssr%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC-shadowsocksr%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/)  
-[V2ray一键安装脚本使用教程](https://xiaoheicn.top/v2ray%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC-233boy%E5%A4%A7%E7%A5%9E%E7%89%88%E6%9C%AC-%E5%8D%95%E7%94%A8%E6%88%B7/)  
-[Trojan一键安装脚本使用教程](https://xiaoheicn.top/trojan%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC-%E6%90%AD%E5%BB%BA%E4%BC%AA%E8%A3%85%E7%BD%91%E7%AB%99%E7%BB%AD%E7%AD%BE%E8%AF%81%E4%B9%A6%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%8F%82%E6%95%B0%E9%85%8D%E7%BD%AE/)  
-[WireGuard一键安装脚本使用教程](https://xiaoheicn.top/wireguard%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC%E7%A7%8B%E6%B0%B4%E7%89%88/)
-
-<br>
 <br>
 
 # 美国VPS Hostwinds 购买
@@ -222,4 +212,22 @@ OK，出现这个界面就表示 V2Ray 已经安装完成了。
 <br>
 <br>
 
-## [更多配置教程请参考这里](https://xiaoheicn.top/v2ray%e5%ae%a2%e6%88%b7%e7%ab%af%e5%85%a8%e9%9b%86/)
+
+### [更多配置教程请参考这里](https://xiaoheicn.top/v2ray%e5%ae%a2%e6%88%b7%e7%ab%af%e5%85%a8%e9%9b%86/)  
+
+
+
+<br>  
+<br>  
+<br>  
+<br>  
+
+**更多搭建教程:**  
+
+[SSR一键安装脚本使用教程](https://xiaoheicn.top/ssr%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC-shadowsocksr%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/)  
+[V2ray一键安装脚本使用教程](https://xiaoheicn.top/v2ray%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC-233boy%E5%A4%A7%E7%A5%9E%E7%89%88%E6%9C%AC-%E5%8D%95%E7%94%A8%E6%88%B7/)  
+[Trojan一键安装脚本使用教程](https://xiaoheicn.top/trojan%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC-%E6%90%AD%E5%BB%BA%E4%BC%AA%E8%A3%85%E7%BD%91%E7%AB%99%E7%BB%AD%E7%AD%BE%E8%AF%81%E4%B9%A6%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%8F%82%E6%95%B0%E9%85%8D%E7%BD%AE/)  
+[WireGuard一键安装脚本使用教程](https://xiaoheicn.top/wireguard%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC%E7%A7%8B%E6%B0%B4%E7%89%88/)
+
+<br>
+
