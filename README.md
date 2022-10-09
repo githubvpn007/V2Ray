@@ -37,7 +37,9 @@ V2Ray是在Shadowsocks的作者被请喝茶之后出现的一个开源项目，�
 [3.执行V2ray 安装命令](#VPS一键脚本搭建V2Ray)  
 [4.配置客户端实现连接外网](#V2Ray客户端配置)  
 
-<br>
+<br>  
+<br>  
+
 **更多搭建教程:**  
 
 [SSR一键安装脚本使用教程](https://xiaoheicn.top/ssr%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC-shadowsocksr%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/)  
