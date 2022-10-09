@@ -1,7 +1,7 @@
 # V2Ray简介
 **什么是V2Ray**
 
-Project V 提供了单一的内核和多种界面操作方式。内核（V2Ray）用于实际的网络交互、路由等针对网络数据的处理，而外围的用户界面程序提供了方便直接的操作流程，简单来说，V2Ray就是一个代理软件，可以用来科学上网学习国外先进科学技术。
+Project V 提供了单一的内核和多种界面操作方式。内核（V2Ray）用于实际的网络交互、路由等针对网络数据的处理，而外围的用户界面程序提供了方便直接的操作流程，简单来说，V2Ray就是一个代理软件，可以用来科学上网学习国外先进科学技术。   
 
 <br>
 
@@ -36,6 +36,13 @@ V2Ray是在Shadowsocks的作者被请喝茶之后出现的一个开源项目，�
 [2.使用 ssh 软件链接远程服务器](#%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5hostwinds-vps)  
 [3.执行V2ray 安装命令](#VPS一键脚本搭建V2Ray)  
 [4.配置客户端实现连接外网](#V2Ray客户端配置)  
+
+<br>
+**更多搭建教程:**
+[SSR一键安装脚本使用教程](https://xiaoheicn.top/ssr%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC-shadowsocksr%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/)  
+[V2ray一键安装脚本使用教程](https://xiaoheicn.top/v2ray%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC-233boy%E5%A4%A7%E7%A5%9E%E7%89%88%E6%9C%AC-%E5%8D%95%E7%94%A8%E6%88%B7/)  
+[Trojan一键安装脚本使用教程](https://xiaoheicn.top/trojan%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC-%E6%90%AD%E5%BB%BA%E4%BC%AA%E8%A3%85%E7%BD%91%E7%AB%99%E7%BB%AD%E7%AD%BE%E8%AF%81%E4%B9%A6%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%8F%82%E6%95%B0%E9%85%8D%E7%BD%AE/)  
+[WireGuard一键安装脚本使用教程](https://xiaoheicn.top/wireguard%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC%E7%A7%8B%E6%B0%B4%E7%89%88/)
 
 <br>
 <br>
