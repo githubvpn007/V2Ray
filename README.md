@@ -128,7 +128,7 @@ Xshell 下载地址：[Xshell](https://github.com/githubvpn007/v2rayNvpn/release
 
 在上图的待输入内容处，粘贴下面的命令（复制下面的命令，然后在 Xshell 待输入内容处“鼠标右键”/“粘贴”即可）：
 
-bash <(curl -s -L https://git.io/v2ray.sh)
+` bash <(curl -s -L https://git.io/v2ray.sh) 或者  bash <(wget -qO- -o- https://git.io/v2ray.sh) `
 
 > 如果提示 curl: command not found ，那是因为你的 VPS 没装 Curl  
 > ubuntu/debian 系统安装 Curl 执行命令: apt-get update -y && apt-get install curl -y  
