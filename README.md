@@ -64,7 +64,7 @@ V2Ray是在Shadowsocks的作者被请喝茶之后出现的一个开源项目，�
 
 5、然后选择购买时间、数据中心 、操作系统，红色部分需要自己选择，绿色一般我们默认，可以按月购买，但是建议第一次购买时间选择长一点，这样优惠要大很多，不然后面续费优惠力度就没有这么大了。 如下图所示：  
 
-![Hostwinds套餐选择2](https://camo.githubusercontent.com/60624a9dfe0b6d01af0c804bb262aca9b016fd8d6df66ac45ba26091d17ae0b8/68747470733a2f2f696d67323031382e636e626c6f67732e636f6d2f626c6f672f313736353439362f3230323030322f313736353439362d32303230303231383132333932373434302d3639363535323733322e6a7067)    
+![Hostwinds套餐选择2](https://i.postimg.cc/cJVh0hk9/Hostwind.png)    
 
 6、默认是自动云备份的，如果不需要去掉勾选， 如下图所示：  
 
@@ -124,38 +124,48 @@ Xshell 下载地址：[Xshell](https://github.com/githubvpn007/v2rayNvpn/release
 
 # VPS一键脚本搭建V2Ray  
 
-1.在上图的待输入内容处，粘贴下面的命令（复制下面的命令，然后在 Xshell 待输入内容处“鼠标右键”/“粘贴”即可）：
+### 1.在上图的待输入内容处，粘贴下面的命令（复制下面的命令，然后在 Xshell 待输入内容处“鼠标右键”/“粘贴”即可）：
 
 ` bash <(curl -s -L https://git.io/v2ray.sh) 
 或者  
 bash <(wget -qO- -o- https://git.io/v2ray.sh) `
 
-```如果提示 curl: command not found ，那是因为你的 VPS 没装 Curl  
+```
+如果提示 curl: command not found ，那是因为你的 VPS 没装 Curl  
 解决办法：
-**ubuntu/debian 系统安装 Curl 执行命令:**  
-apt-get update -y && apt-get install curl -y  
-**centos 系统安装 Curl 执行命令:**   
-yum update -y && yum install curl -y 
-安装好 curl  之后就能安装脚本了```  
+ubuntu/debian 系统安装 Curl 执行命令:  
+apt-get update -y && apt-get install curl -y
+
+centos 系统安装 Curl 执行命令:   
+yum update -y && yum install curl -y
+
+安装好 curl  之后就能安装脚本了
+```
 
 
 ![Hostwinds搭建V2Ray](https://i.postimg.cc/NGTCDdgf/v2ray.png)  
 
-
 OK，出现这个界面就表示 V2Ray 已经安装完成了。  
 
-2.如上图所示，V2Ray 配置信息，有连接的详细信息，也有v2ray的vmess协议的快速导入连接
+<br>
+
+### 2.如上图所示，V2Ray 配置信息，有连接的详细信息，也有v2ray的vmess协议的快速导入连接
 
 如果你使用过 V2Ray 某些客户端，那么现在也可以测试一下配置了。  
 
 (备注，可能某些 V2Ray 客户端的选项或描述略有不同，但事实上，上面的 V2Ray 配置信息已经足够详细，由于客户端的不同，请对号入座。)  
 
-导入到V2ray 软件如下：  
+##### 导入到V2ray 软件如下：  
 ![Hostwinds搭建V2Ray](https://i.postimg.cc/zXZF0h7C/v2ray.png)   
-表示导入成功：  
+
+##### 表示导入成功：  
 ![Hostwinds搭建V2Ray](https://i.postimg.cc/LXmnJH3Z/v2ray.png)   
 
-3.测试连接是否通畅
+#### 客户端的具体配置请看：[V2Ray客户端配置](#V2Ray客户端配置)
+
+<br>  
+
+### 3.测试连接是否通畅
 [![v2ray.png](https://i.postimg.cc/T2zBgQsf/v2ray.png)](https://postimg.cc/K459y7FH)  
 
 出现如上无法使用一般都是两种情况，一是无法连接上端口，二是客户端内核支持有问题。
@@ -163,21 +173,22 @@ OK，出现这个界面就表示 V2Ray 已经安装完成了。
 (1)如果你的 VPS 有外部防火墙，请确保你已经开放了端口
 测试端口是否能连接上：
 打开：[https://ping.sx/check-port](https://ping.sx/check-port)  
-Target 写你的 VPS IP，Port 写 V2Ray 的端口，然后点击 Check，如果 REACHABILITY 显示 Timeout，那是无法连接上端口
+**Target** 写你的 **VPS IP**，**Port** 写 V2Ray 的端口，然后点击 Check，如果 REACHABILITY 显示 Timeout，那是无法连接上端口
 -提醒，你可以使用命令 v2ray ip 查看 VPS IP。
 
 #### 这时候有两种办法：
 1.关闭防火墙，执行如下命令：
 ` systemctl stop firewalld; systemctl disable firewalld; ufw disable `
 关闭防火墙之后再测试一下端口是否通，如果不通，你可能还有外部防火墙没关，必须要能连接上端口才能正常使用。
-如果 REACHABILITY 显示 Reachable 那就是能连接上端口，那就继续
-使用 v2ray add ss 添加一个 SS 看看能不能正常使用，如果正常使用，证明运行没有问题。  
+如果 REACHABILITY 显示 Reachable 那就是能连接上端口，那就继续！ 如果 REACHABILITY 显示 Timeout那就是端口还是不能访问，这个时候您需要到服务器商后台手动操作关闭防火墙！
 
-2.打开v2ray端口
-` iptables -I INPUT -p tcp --dport 你的端口 -j ACCEPT `  
+
+2.打开v2ray端口  
+执行命令：  
+` iptables -I INPUT -p tcp --dport 你的端口 -j ACCEPT `    
 ![端口](https://i.postimg.cc/L5J9NZJd/v2ray.png)
 
-
+如果 REACHABILITY 显示 Reachable 那就是能连接上端口，那就继续！ 如果 REACHABILITY 显示 Timeout那就是端口还是不能访问，这个时候您需要到服务器商后台手动操作关闭防火墙！
 <br>
 
 (2)提醒，默认安装的 V2Ray 内核为最新版本
@@ -196,6 +207,12 @@ Target 写你的 VPS IP，Port 写 V2Ray 的端口，然后点击 Check，如果
 ##### 解决方案二，升级客户端内核
 
 备注，请尽量将客户端内核和服务器端内核保持一致！内核版本低于 5 可能会出现莫名其妙的问题  
+
+<br>  
+
+### 3.V2Ray 更多设置和信息查看  
+输入命令：`v2ray`  即可根据选项查看你想要的信息  
+![信息查看](https://i.postimg.cc/Y2bZ7fRk/v2ray.png)
 
 <br>
 <br>
