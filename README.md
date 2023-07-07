@@ -124,51 +124,80 @@ Xshell 下载地址：[Xshell](https://github.com/githubvpn007/v2rayNvpn/release
 
 # VPS一键脚本搭建V2Ray  
 
-在上图的待输入内容处，粘贴下面的命令（复制下面的命令，然后在 Xshell 待输入内容处“鼠标右键”/“粘贴”即可）：
+1.在上图的待输入内容处，粘贴下面的命令（复制下面的命令，然后在 Xshell 待输入内容处“鼠标右键”/“粘贴”即可）：
 
-在上图的待输入内容处，粘贴下面的命令（复制下面的命令，然后在 Xshell 待输入内容处“鼠标右键”/“粘贴”即可）：
+` bash <(curl -s -L https://git.io/v2ray.sh) 
+或者  
+bash <(wget -qO- -o- https://git.io/v2ray.sh) `
 
-` bash <(curl -s -L https://git.io/v2ray.sh) 或者  bash <(wget -qO- -o- https://git.io/v2ray.sh) `
+` 如果提示 curl: command not found ，那是因为你的 VPS 没装 Curl  
+解决办法：
+ubuntu/debian 系统安装 Curl 执行命令:  
+apt-get update -y && apt-get install curl -y  
 
-> 如果提示 curl: command not found ，那是因为你的 VPS 没装 Curl  
-> ubuntu/debian 系统安装 Curl 执行命令: apt-get update -y && apt-get install curl -y  
-> centos 系统安装 Curl 执行命令: yum update -y && yum install curl -y 安装好 curl  
-> 之后就能安装脚本了
+centos 系统安装 Curl 执行命令:   
+yum update -y && yum install curl -y 
 
-  
-然后选择安装，即是输入 1 回车
+安装好 curl  之后就能安装脚本了 `
 
-选择传输协议，如果没有特别的需求，使用默认的 TCP 传输协议即可，直接回车
 
-选择端口，如果没有特别的需求，使用默认的端口即可，直接回车
-
-是否屏蔽广告，除非你真的需要，一般来说，直接回车即可  
-
-![Hostwinds搭建V2Ray](https://camo.githubusercontent.com/a07fba64518c77164af3ab3dec75eeade5a99f2cf2813bde174d5410e25365b4/68747470733a2f2f696d67323031382e636e626c6f67732e636f6d2f626c6f672f313736353439362f3230323030322f313736353439362d32303230303231383132343431363232372d313631313038313534312e6a7067)  
-
-是否配置 Shadowsocks ，如果不需要就直接回车，否则就输入 Y 回车
-
-Shadowsocks 端口，密码，加密方式这些东西自己看情况配置即可，我个人当然是全部直接回车
-
-OK，按回车继续  
-
-![Hostwinds一键搭建V2Ray](https://camo.githubusercontent.com/25137d2bfa96061e5fd7f74ddc134060d5840d9a7554f7b8166aaac960906085/68747470733a2f2f696d67323031382e636e626c6f67732e636f6d2f626c6f672f313736353439362f3230323030322f313736353439362d32303230303231383132343432303234312d313634323235353136322e6a7067)  
-
-安装信息，如果确保没有什么问题了，按回车继续  
-![VPS一键搭建V2Ray](https://camo.githubusercontent.com/ed2f19c934249c7c623f3a5c1e8241c768994c60978c6397bd6baef92df745fa/68747470733a2f2f696d67323031382e636e626c6f67732e636f6d2f626c6f672f313736353439362f3230323030322f313736353439362d32303230303231383132343433303036362d323133363733373230312e6a7067)  
+![Hostwinds搭建V2Ray](https://i.postimg.cc/NGTCDdgf/v2ray.png)  
 
 
 OK，出现这个界面就表示 V2Ray 已经安装完成了。  
 
-![VPS如何一键搭建V2Ray](https://camo.githubusercontent.com/5ddcd9f0685f1f0e2725fccb4ac785ae0d2e1ebd5be54b1560b4199a8ecfe024/68747470733a2f2f696d67323031382e636e626c6f67732e636f6d2f626c6f672f313736353439362f3230323030322f313736353439362d32303230303231383132343433323338382d3339313538323531362e6a7067)  
-
-如上图所示，V2Ray 配置信息，Shadowsocks 配置信息都有了  
-
-如果你使用过 Shadowsocks ，那么现在你可以测试一下 Shadowsocks 配置了，看看是否能正常使用。  
+2.如上图所示，V2Ray 配置信息，有连接的详细信息，也有v2ray的vmess协议的快速导入连接
 
 如果你使用过 V2Ray 某些客户端，那么现在也可以测试一下配置了。  
 
 (备注，可能某些 V2Ray 客户端的选项或描述略有不同，但事实上，上面的 V2Ray 配置信息已经足够详细，由于客户端的不同，请对号入座。)  
+
+导入到V2ray 软件如下：  
+![Hostwinds搭建V2Ray](https://i.postimg.cc/zXZF0h7C/v2ray.png)   
+表示导入成功：  
+![Hostwinds搭建V2Ray](https://i.postimg.cc/LXmnJH3Z/v2ray.png)   
+
+3.测试连接是否通畅
+[![v2ray.png](https://i.postimg.cc/T2zBgQsf/v2ray.png)](https://postimg.cc/K459y7FH)  
+
+出现如上无法使用一般都是两种情况，一是无法连接上端口，二是客户端内核支持有问题。
+
+(1)如果你的 VPS 有外部防火墙，请确保你已经开放了端口
+测试端口是否能连接上：
+打开：[https://ping.sx/check-port](https://ping.sx/check-port)  
+Target 写你的 VPS IP，Port 写 V2Ray 的端口，然后点击 Check，如果 REACHABILITY 显示 Timeout，那是无法连接上端口
+-提醒，你可以使用命令 v2ray ip 查看 VPS IP。
+
+#### 这时候有两种办法：
+1.关闭防火墙，执行如下命令：
+` systemctl stop firewalld; systemctl disable firewalld; ufw disable `
+关闭防火墙之后再测试一下端口是否通，如果不通，你可能还有外部防火墙没关，必须要能连接上端口才能正常使用。
+如果 REACHABILITY 显示 Reachable 那就是能连接上端口，那就继续
+使用 v2ray add ss 添加一个 SS 看看能不能正常使用，如果正常使用，证明运行没有问题。  
+
+2.打开v2ray端口
+` iptables -I INPUT -p tcp --dport 你的端口 -j ACCEPT `  
+![端口](https://i.postimg.cc/L5J9NZJd/v2ray.png)
+
+
+<br>
+
+(2)提醒，默认安装的 V2Ray 内核为最新版本
+如果无法使用，可能是你客户端的内核太旧
+
+请尝试使用不同的客户端进行测试；比如 v2rayN；v2rayNG 等
+
+请尝试设置 VMessAEAD，某些客户端会有相关选项
+
+某些客户端得把 额外id(alterid) 填写为 0；比如垃圾苹果那边的东西
+
+###### 解决方案一，请尝试将服务器端的内核版本降级
+
+使用命令： v2ray update core 4.45.2 降级即可
+
+##### 解决方案二，升级客户端内核
+
+备注，请尽量将客户端内核和服务器端内核保持一致！内核版本低于 5 可能会出现莫名其妙的问题  
 
 <br>
 <br>
