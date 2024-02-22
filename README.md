@@ -283,13 +283,13 @@ OK，出现这个界面就表示 V2Ray 已经安装完成了。
 **5.测试链接是否正常**  
 [![18.png](https://i.postimg.cc/D0KFGg48/18.png)](https://postimg.cc/dknzPGBY)
 
-出现延迟信息就表明链接正常  
+**出现延迟信息就表明链接正常**  
 [![19.jpg](https://i.postimg.cc/X7J185KJ/19.jpg)](https://postimg.cc/G9Wj3H5w)  
 
-6.打开代理服务  
+**6.打开代理服务**  
 [![20.jpg](https://i.postimg.cc/tCFdFt7W/20.jpg)](https://postimg.cc/nCcQJm4h)  
 
-7.首次打开软件 需要下载一些配置，等它下载完成就可以上网了  
+**7.首次打开软件 需要下载一些配置，等它下载完成就可以上网了**  
 [![21.jpg](https://i.postimg.cc/43yBv7DG/21.jpg)](https://postimg.cc/gw9VmJct)  
 <br>
 <br>
