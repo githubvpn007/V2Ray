@@ -132,25 +132,23 @@ Xshell 下载地址：[Xshell](https://github.com/githubvpn007/v2rayNvpn/release
 **使用 Xshell 连接 Linux VPS**  
 
 
-1、打开 Xshell，点击左上角“文件”-“新建”，打开连接弹出库。  
+**1、打开 Xshell，点击左上角“文件”-“新建”，打开连接弹出库。**    
 
-![Xshell连接VPS](https://camo.githubusercontent.com/eee8534da0fa174252bf0fc0f4dab899a4a48a3b6044e1c1462407051fc92554/68747470733a2f2f696d67323031382e636e626c6f67732e636f6d2f626c6f672f313736353439362f3230323030322f313736353439362d32303230303231383132343234343731332d313634373030333539312e6a7067)  
-
-
-2、在 Xshell 弹出框中输入 IP 和端口，端口一般是 22 默认，然后点击确认按钮，如下图所示：  
-![Xshell连接VPS](https://camo.githubusercontent.com/e5e0c22f6532d962663bb4043e027c8135ee4dd261b2240dfe1b10818b0b1217/68747470733a2f2f696d67323031382e636e626c6f67732e636f6d2f626c6f672f313736353439362f3230323030322f313736353439362d32303230303231383132343235303732302d3330303333303039322e6a7067)  
+[![9.png](https://i.postimg.cc/QCxDNWnD/9.png)](https://postimg.cc/N9VSpLcC)  
 
 
-3、然后输入用户名 root，勾选记住用户名。  
+**2、在 Xshell 弹出框中输入 IP 和端口，端口一般是 22 默认，然后点击确认按钮，如下图所示：**    
+[![10.jpg](https://i.postimg.cc/kXtkWmRK/10.jpg)](https://postimg.cc/9rC8jspQ)  
 
-![Xshell连接VPS](https://camo.githubusercontent.com/8100e26da58653b726d97c4d6764d4f95d41f6bf2789128037f6992ac2c7bef0/68747470733a2f2f696d67323031382e636e626c6f67732e636f6d2f626c6f672f313736353439362f3230323030322f313736353439362d32303230303231383132343235333136312d313234303735393431302e6a7067)  
+
+**3、然后输入用户名 root 和 密码，勾选记住用户名。  最后点击链接**  
+
+[![11.jpg](https://i.postimg.cc/gkjLcg5x/11.jpg)](https://postimg.cc/gn92NHGp)  
 
 
-4、然后输入密码，勾选记住密码，点击确定。  
-![1](https://camo.githubusercontent.com/d8c7466c0fc3e8df5b90b388b0e4e3b58969b3d61d00acbc47819e7454eab32f/68747470733a2f2f696d67323031382e636e626c6f67732e636f6d2f626c6f672f313736353439362f3230323030322f313736353439362d32303230303231383132343235373234332d3339323939393332312e6a7067)  
 
-完成以上步骤后就可以看到连接成功的界面，如下图所示：  
-![2](https://camo.githubusercontent.com/bd67dd257edcfbb88e3798c3c8e261ca50f9bc6455bfaf37d6680e7bf3a978a8/68747470733a2f2f696d67323031382e636e626c6f67732e636f6d2f626c6f672f313736353439362f3230323030322f313736353439362d32303230303231383132343331343736362d313634393931393432382e6a7067)  
+**完成以上步骤后就可以看到连接成功的界面，如下图所示：**   
+[![12.jpg](https://i.postimg.cc/LhFHRq7P/12.jpg)](https://postimg.cc/7JXvnLqP)
 
 <br>
 <br>
