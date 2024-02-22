@@ -174,7 +174,7 @@ yum update -y && yum install curl -y
 ```
 
 
-![Hostwinds搭建V2Ray](https://i.postimg.cc/NGTCDdgf/v2ray.png)  
+[![15.png](https://i.postimg.cc/sgqGQkmm/15.png)](https://postimg.cc/RW1Z2bjJ)
 
 OK，出现这个界面就表示 V2Ray 已经安装完成了。  
 
@@ -187,17 +187,17 @@ OK，出现这个界面就表示 V2Ray 已经安装完成了。
 (备注，可能某些 V2Ray 客户端的选项或描述略有不同，但事实上，上面的 V2Ray 配置信息已经足够详细，由于客户端的不同，请对号入座。)  
 
 ##### 导入到V2ray 软件如下：  
-![Hostwinds搭建V2Ray](https://i.postimg.cc/zXZF0h7C/v2ray.png)   
+[![16.png](https://i.postimg.cc/sfWzstGy/16.png)](https://postimg.cc/xq9hPpPF)   
 
 ##### 表示导入成功：  
-![Hostwinds搭建V2Ray](https://i.postimg.cc/LXmnJH3Z/v2ray.png)   
+[![17.jpg](https://i.postimg.cc/CxhHFp1Q/17.jpg)](https://postimg.cc/tYcV5fF3)   
 
 #### 客户端的具体配置请看：[V2Ray客户端配置](#V2Ray客户端配置)
 
 <br>  
 
 ### 3.测试连接是否通畅
-[![v2ray.png](https://i.postimg.cc/T2zBgQsf/v2ray.png)](https://postimg.cc/K459y7FH)  
+[![18.png](https://i.postimg.cc/D0KFGg48/18.png)](https://postimg.cc/dknzPGBY)   
 
 出现如上无法使用一般都是两种情况，一是无法连接上端口，二是客户端内核支持有问题。
 
