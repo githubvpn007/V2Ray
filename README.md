@@ -47,44 +47,78 @@ V2Ray是在Shadowsocks的作者被请喝茶之后出现的一个开源项目，�
 
 首先确认不要使用任何代理，网络是什么 IP 就是什么 IP ，不然可能需要人工审核，导致 Hostwinds VPS 购买显示 "Pending" 状态， 不能即时创建服务激活。
 
-1、通过 [Hostwinds 优惠链接进入](https://www.hostwinds.com/11003.html)Hostwinds 首页，选择 “VPS” 下的 "Unmanaged VPS" ，这里是最便宜的**(注意千万不要选择页面上 3.29 美元那个，那个是虚拟空间，不是 VPS !!!)**。  
+1.通过 [Hostwinds 优惠链接进入](https://www.hostwinds.com/11003.html)Hostwinds 首页  
+2.在注册Hostwinds的时候，我们为了注册的方便，这里的语言就调整为中文，以前的语言只有英文，注册的过程中都是依靠谷歌浏览器中的翻译功能。
+   我们在右上角找到“English”，然后在出来的语言菜单中找到中文。
+   [![1.jpg](https://i.postimg.cc/CMk0ypbp/1.jpg)](https://postimg.cc/G9LVYNMX)  
 
-![Hostwinds注册首页](https://camo.githubusercontent.com/2ffca6ecd2813e411d14aa1ae03a9b3c436711c1d62a81cf3c7f9be5f545b7d4/68747470733a2f2f696d67323031382e636e626c6f67732e636f6d2f626c6f672f313736353439362f3230323030322f313736353439362d32303230303231383132333833393833322d3737333134313437342e6a7067)  
 
-2、进入 VPS 选择页面后，根据自己的需要的配置选择套餐，一般我们选择最低配置就够用了，然后点击 “Order” 按钮进入信息填写页面，如下所示：  
+3.购买的产品有很多，你可以在Hostwinds上面购买虚拟主机、VPS和域名，这里我只推荐去购买VPS，其他的产品性价比并不是很高，我们在左边的菜单栏中找到“VPS”。
 
-![首页](https://camo.githubusercontent.com/1816508c514979b7deae5be1892596bbe84cba2b45e62b13c57968b92f72ca16/68747470733a2f2f696d67323031382e636e626c6f67732e636f6d2f626c6f672f313736353439362f3230323030322f313736353439362d32303230303231383132333930303836372d313330313531303133352e6a7067)  
+然后选择“Linux unmanaged”，这个是非托管的Linux VPS主机，也是价钱最便宜的VPS。
 
-3、进入信息填写页面后首先填写账号信息，一般是新用户我们填写左边的姓、名、邮箱、密码，然后点击 “Submit” 进入下一步，如下图所示：  
+上面要根据你的实际情况进行购买，如果你想购买Windows VPS，那么就选择 Windows VPS，购买 Linux VPS，就购买 Linux VPS，不要买错了。
 
-![Hostwinds注册信息填写](https://camo.githubusercontent.com/1cfe1a4ef668b9fa85538714fde446f635a68a2f91d8c2be9d2015580ba11f90/68747470733a2f2f696d67323031382e636e626c6f67732e636f6d2f626c6f672f313736353439362f3230323030322f313736353439362d32303230303231383132333932343836342d313734383233363631302e6a7067)  
+Managed 跟 Unmanned 是托管与非托管的关系，托管的作用就是官方会帮助你进行管理，有问题可以请求官方进行处理，你无需操心别的事情。
 
-4、页面跳转后填写用户信息，如下图所示：  
+[![2.jpg](https://i.postimg.cc/kGQcmPrf/2.jpg)](https://postimg.cc/jnjNH9S7)  
 
-![Hostwinds用户信息](https://camo.githubusercontent.com/d3fc65e6278512176176ce3afb69b09de4b0c3af48929095e007f4695c60d807/68747470733a2f2f696d67323031382e636e626c6f67732e636f6d2f626c6f672f313736353439362f3230323030322f313736353439362d32303230303231383132333932363134352d313037383137393437352e6a7067)  
 
-5、然后选择购买时间、数据中心 、操作系统，红色部分需要自己选择，绿色一般我们默认，可以按月购买，但是建议第一次购买时间选择长一点，这样优惠要大很多，不然后面续费优惠力度就没有这么大了。 如下图所示：  
 
-![Hostwinds套餐选择2](https://i.postimg.cc/cJVh0hk9/Hostwind.png)    
+4.进入 VPS 选择页面后，根据自己的需要的配置选择套餐，一般我们选择最低配置就够用了，然后点击 “Order” 按钮进入信息填写页面，如下所示：  
 
-6、默认是自动云备份的，如果不需要去掉勾选， 如下图所示：  
+[![3.jpg](https://i.postimg.cc/7ZD2w7Gf/3.jpg)](https://postimg.cc/PP3xMCMj)  
+  
 
-![Hostwinds套餐选择3](https://camo.githubusercontent.com/35427730d7aa60a246cc61e7040a1d7ab3b51f080d5c1cf7b2647f2ef73609c4/68747470733a2f2f696d67323031382e636e626c6f67732e636f6d2f626c6f672f313736353439362f3230323030322f313736353439362d32303230303231383132333933303731312d3130303433373531342e6a7067)  
+5.进入信息填写页面后首先填写账号信息，一般是新用户我们填写左边的姓、名、邮箱、密码，然后点击 “Submit” 进入下一步，如下图所示：  
 
-7、然后选择付款方式，一般我们选择支付宝进行付款 （只有国内 IP 访问的时候才有支付宝付款方式），如下图所示：  
+ [![4.jpg](https://i.postimg.cc/cJx5zXQh/4.jpg)](https://postimg.cc/k2Hc6NYR)  
 
-![Hostwinds支付宝支付](https://camo.githubusercontent.com/b7630fb0a253b005663d79985bbb6be73c9cbabfdc92bca3271945c92018595f/68747470733a2f2f696d67323031382e636e626c6f67732e636f6d2f626c6f672f313736353439362f3230323030322f313736353439362d32303230303231383132333933323431382d3436353335333130322e6a7067)  
 
-8、最后确认价格（不同时期可能价格有些许不同，如果通过前面优惠链接点击购买会有优惠），勾选同意协议，然后点击“Complete Order”按钮进行下单， 如下图所示：  
+6. 在“Client Information”中填入你的详细信息，跟上面的账号注册一样，也是使用拼音进行填写。
 
-![Hostwinds](https://camo.githubusercontent.com/05c771691a2eae2ff0e42bd172a08d15bb7c9bf598fddc85a07a632b533c3187/68747470733a2f2f696d67323031382e636e626c6f67732e636f6d2f626c6f672f313736353439362f3230323030322f313736353439362d32303230303231383132333933343332362d35353237393638302e6a7067)  
+而且填写的内容最好是真实的，因为在国外VPS购买的过程中都会有“欺诈”检测，如果你购买VPS的信息不是真实的话，VPS主机商会对你的账号进行核查，这样你购买就会很麻烦的。
+
+填写的内容这里也有一个样例，根据上面的信息进行填写就行了，我这里只是做一个示范，你要根据你自身的信息进行填写。
+
+如果实在是看不懂下面的图片，可以借助百度翻译。  
+ [![5.jpg](https://i.postimg.cc/0Qb6V1rs/5.jpg)](https://postimg.cc/BLfQvyxY)   
+
+
+7. 在“Package Information”中可以选择你购买VPS的详细配置。
+
+“Billing Cycle”是账单周期，也就是付费周期，我们这里推荐购买的时间长一点，在你首次购买的时候会有一个百分之十的折扣，你购买的时间越长，得到的优惠也就越多，如果你只是想使用一下，尝尝鲜，那么就先去购买一个月的使用期限。
+
+“Location”是机房的位置，你可以购买阿姆斯特丹、西雅图和达拉斯，我这里推荐购买的机房位置是西雅图(Seattle)，西雅图位于美国的西面，这个机房的位置离我们是最近的，所以在速度上面会有一定的保障。
+
+“Operating System”就是操作系统的安装选择了，如果没有特殊的需求，那么就使用默认的Centos 8。
+
+“IP Addresses”是IP地址，我们可以购买多个IP地址，这样可以随时更换。
+
+其他的默认就行了。
+
+[![6.jpg](https://i.postimg.cc/vmyL2Tdd/6.jpg)](https://postimg.cc/rDhrK8mh)   
+
+
+8. “Optional Add Ons”中是额外的付费功能，分别是云备份和监控，我觉得这两个功能都没有多大的用，因为我可以自己设置这两个功能，无需花费多余的钱。
+
+这里要注意的是云备份这个选项还是默认的，如果你不需要一定要记得取消掉，不然每个月会多花费你1美元。
+
+[![7.jpg](https://i.postimg.cc/k4smR27M/7.jpg)](https://postimg.cc/628SD57F)   
+
+
+9. “Payment Information”中可以选择你的支付方式，我们这里就选择最后一个支付宝的支付方式，简单方便。
+
+核对好价格后，如果觉得满意我们就可以进行购买了，点击下方的“I have read and agree to theTerms of ServiceandPrivacy Policy”，同意Hostwinds的服务条款和隐私条款，点击下方的“Complete Order”就可以去支付了。 （只有国内 IP 访问的时候才有支付宝付款方式），如下图所示：  
+[![8.jpg](https://i.postimg.cc/yYg8tTVF/8.jpg)](https://postimg.cc/LnSSZLgX)
+
+
 
 9、下单完成后订单结果如下图所示：     
-![1](https://camo.githubusercontent.com/9904fcb6dcf58d1110983b3f28377afde064be5b13ecbcfb7c9aee7586a18fae/68747470733a2f2f696d67323031382e636e626c6f67732e636f6d2f626c6f672f313736353439362f3230323030322f313736353439362d32303230303231383132333933363430372d3832393139363839312e6a7067)  
+[![Hostwinds7.png](https://i.postimg.cc/vmPG6Trv/Hostwinds7.png)](https://postimg.cc/PL8ggtFL)  
 
 
-10、完成购买后，你会收到一封邮件，里面包含 VPS 的IP地址、用户名、密码、ssh连接端口。如下图所示：  
-![2](https://camo.githubusercontent.com/a9e4edb2e1ace6addb864a02195ba2d30339a857a7362ceab1756c9a9a9ecc9c/68747470733a2f2f696d67323031382e636e626c6f67732e636f6d2f626c6f672f313736353439362f3230323030322f313736353439362d32303230303231383132333933373739362d3235303034353238332e6a7067)  
+10、完成购买后，你会收到一封邮件，里面包含 VPS 的IP地址、用户名、密码、ssh连接端口。
 
 <br>
 <br>
