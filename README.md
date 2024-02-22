@@ -47,13 +47,13 @@ V2Ray是在Shadowsocks的作者被请喝茶之后出现的一个开源项目，�
 
 首先确认不要使用任何代理，网络是什么 IP 就是什么 IP ，不然可能需要人工审核，导致 Hostwinds VPS 购买显示 "Pending" 状态， 不能即时创建服务激活。
 
-1.通过 [Hostwinds 优惠链接进入](https://www.hostwinds.com/11003.html)Hostwinds 首页  
-2.在注册Hostwinds的时候，我们为了注册的方便，这里的语言就调整为中文，以前的语言只有英文，注册的过程中都是依靠谷歌浏览器中的翻译功能。
+**1.通过 [Hostwinds 优惠链接进入](https://www.hostwinds.com/11003.html)Hostwinds 首页**  
+**2.在注册Hostwinds的时候，我们为了注册的方便，这里的语言就调整为中文，以前的语言只有英文，注册的过程中都是依靠谷歌浏览器中的翻译功能。**
    我们在右上角找到“English”，然后在出来的语言菜单中找到中文。
-   [![1.jpg](https://i.postimg.cc/CMk0ypbp/1.jpg)](https://postimg.cc/G9LVYNMX)  
+[![1.jpg](https://i.postimg.cc/CMk0ypbp/1.jpg)](https://postimg.cc/G9LVYNMX)  
 
 
-3.购买的产品有很多，你可以在Hostwinds上面购买虚拟主机、VPS和域名，这里我只推荐去购买VPS，其他的产品性价比并不是很高，我们在左边的菜单栏中找到“VPS”。
+**3.购买的产品有很多，你可以在Hostwinds上面购买虚拟主机、VPS和域名，这里我只推荐去购买VPS，其他的产品性价比并不是很高，我们在左边的菜单栏中找到“VPS”。**
 
 然后选择“Linux unmanaged”，这个是非托管的Linux VPS主机，也是价钱最便宜的VPS。
 
@@ -65,27 +65,25 @@ Managed 跟 Unmanned 是托管与非托管的关系，托管的作用就是官�
 
 
 
-4.进入 VPS 选择页面后，根据自己的需要的配置选择套餐，一般我们选择最低配置就够用了，然后点击 “Order” 按钮进入信息填写页面，如下所示：  
+**4.进入 VPS 选择页面后，根据自己的需要的配置选择套餐，一般我们选择最低配置就够用了，然后点击 “Order” 按钮进入信息填写页面，如下所示：**  
 
 [![3.jpg](https://i.postimg.cc/7ZD2w7Gf/3.jpg)](https://postimg.cc/PP3xMCMj)  
   
 
-5.进入信息填写页面后首先填写账号信息，一般是新用户我们填写左边的姓、名、邮箱、密码，然后点击 “Submit” 进入下一步，如下图所示：  
+**5.进入信息填写页面后首先填写账号信息，一般是新用户我们填写左边的姓、名、邮箱、密码，然后点击 “Submit” 进入下一步，如下图所示：**  
 
  [![4.jpg](https://i.postimg.cc/cJx5zXQh/4.jpg)](https://postimg.cc/k2Hc6NYR)  
 
 
-6. 在“Client Information”中填入你的详细信息，跟上面的账号注册一样，也是使用拼音进行填写。
+**6. 在“Client Information”中填入你的详细信息，跟上面的账号注册一样，也是使用拼音进行填写。**
 
 而且填写的内容最好是真实的，因为在国外VPS购买的过程中都会有“欺诈”检测，如果你购买VPS的信息不是真实的话，VPS主机商会对你的账号进行核查，这样你购买就会很麻烦的。
-
 填写的内容这里也有一个样例，根据上面的信息进行填写就行了，我这里只是做一个示范，你要根据你自身的信息进行填写。
-
-如果实在是看不懂下面的图片，可以借助百度翻译。  
+如果实在是看不懂下面的图片，可以借助百度翻译。**  
  [![5.jpg](https://i.postimg.cc/0Qb6V1rs/5.jpg)](https://postimg.cc/BLfQvyxY)   
 
 
-7. 在“Package Information”中可以选择你购买VPS的详细配置。
+**7. 在“Package Information”中可以选择你购买VPS的详细配置。**  
 
 “Billing Cycle”是账单周期，也就是付费周期，我们这里推荐购买的时间长一点，在你首次购买的时候会有一个百分之十的折扣，你购买的时间越长，得到的优惠也就越多，如果你只是想使用一下，尝尝鲜，那么就先去购买一个月的使用期限。
 
@@ -95,30 +93,30 @@ Managed 跟 Unmanned 是托管与非托管的关系，托管的作用就是官�
 
 “IP Addresses”是IP地址，我们可以购买多个IP地址，这样可以随时更换。
 
-其他的默认就行了。
+其他的默认就行了。  
 
 [![6.jpg](https://i.postimg.cc/vmyL2Tdd/6.jpg)](https://postimg.cc/rDhrK8mh)   
 
 
-8. “Optional Add Ons”中是额外的付费功能，分别是云备份和监控，我觉得这两个功能都没有多大的用，因为我可以自己设置这两个功能，无需花费多余的钱。
+**8. “Optional Add Ons”中是额外的付费功能，分别是云备份和监控，我觉得这两个功能都没有多大的用，因为我可以自己设置这两个功能，无需花费多余的钱。**
 
-这里要注意的是云备份这个选项还是默认的，如果你不需要一定要记得取消掉，不然每个月会多花费你1美元。
+这里要注意的是云备份这个选项还是默认的，如果你不需要一定要记得取消掉，不然每个月会多花费你1美元。  
 
 [![7.jpg](https://i.postimg.cc/k4smR27M/7.jpg)](https://postimg.cc/628SD57F)   
 
 
-9. “Payment Information”中可以选择你的支付方式，我们这里就选择最后一个支付宝的支付方式，简单方便。
+**9. “Payment Information”中可以选择你的支付方式，我们这里就选择最后一个支付宝的支付方式，简单方便。**
 
 核对好价格后，如果觉得满意我们就可以进行购买了，点击下方的“I have read and agree to theTerms of ServiceandPrivacy Policy”，同意Hostwinds的服务条款和隐私条款，点击下方的“Complete Order”就可以去支付了。 （只有国内 IP 访问的时候才有支付宝付款方式），如下图所示：  
-[![8.jpg](https://i.postimg.cc/yYg8tTVF/8.jpg)](https://postimg.cc/LnSSZLgX)
+[![8.jpg](https://i.postimg.cc/yYg8tTVF/8.jpg)](https://postimg.cc/LnSSZLgX)  
 
 
 
-9、下单完成后订单结果如下图所示：     
+**10.下单完成后订单结果如下图所示：**     
 [![Hostwinds7.png](https://i.postimg.cc/vmPG6Trv/Hostwinds7.png)](https://postimg.cc/PL8ggtFL)  
 
 
-10、完成购买后，你会收到一封邮件，里面包含 VPS 的IP地址、用户名、密码、ssh连接端口。
+**11.完成购买后，你会收到一封邮件，里面包含 VPS 的IP地址、用户名、密码、ssh连接端口。**
 
 <br>
 <br>
