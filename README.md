@@ -263,27 +263,34 @@ OK，出现这个界面就表示 V2Ray 已经安装完成了。
 
 # V2Ray客户端配置  
 
-**下载地址**：[下载v2rayN-Core.zip](https://github.com/2dust/v2rayN/releases)  
+**1.下载地址**：[下载zz_v2rayN-With-Core-SelfContained.z7](https://github.com/2dust/v2rayN/releases)**   
 
-对v2rayN-Core.zip进行解压,双击 v2rayN.exe 打开软件  
-![1](https://camo.githubusercontent.com/7e6ad47fef214162ebd1015de49c911b500d7f18b387735f31c2ab5b8cb56420/68747470733a2f2f696d67323031382e636e626c6f67732e636f6d2f626c6f672f313736353439362f3230323030322f313736353439362d32303230303231383132343435353838312d3739393439363530332e6a7067)  
+**2.对zz_v2rayN-With-Core-SelfContained.z7进行解压,双击 v2rayN.exe 打开软件**  
+[![13.jpg](https://i.postimg.cc/G2rp1q7b/13.jpg)](https://postimg.cc/NyJt67vn)  
 
-**配置**
+**3.点击电脑右下角v2rayN 图标打开面板**  
+[![14.jpg](https://i.postimg.cc/ZKKzz1Jf/14.jpg)](https://postimg.cc/yW5bFpg9)  
 
-运行 V2RayN.exe，然后进行配置。
+**4.将上面安装V2Ray服务器生成的VMess 协议的那串东西复制到电脑 **  
+[![15.png](https://i.postimg.cc/sgqGQkmm/15.png)](https://postimg.cc/RW1Z2bjJ)  
 
-客户端的配置需要根据你的服务端进行相应的配置，因为你的服务端协议可能是 vmess,shadowsocks 等。
+然后点击“从剪切板批量导入URL”  
+[![16.png](https://i.postimg.cc/sfWzstGy/16.png)](https://postimg.cc/xq9hPpPF)  
 
-如果你的服务端配置是协议 vmess，则配置如下：  
+然后就能看到导入的v2ray 服务器信息  
+[![17.jpg](https://i.postimg.cc/CxhHFp1Q/17.jpg)](https://postimg.cc/tYcV5fF3)  
 
-![V2ray客户端配置](https://camo.githubusercontent.com/8911904bf0fec43b19ecb31b1ffbc3a90441095c9cffe10f3341b6cc4cbe83e6/68747470733a2f2f696d67323031382e636e626c6f67732e636f6d2f626c6f672f313736353439362f3230323030322f313736353439362d32303230303231383132343530343330382d3230323537373735322e6a7067)  
-![4](https://camo.githubusercontent.com/fe600370692df8ad1acadaaa4745f356e60c77f11a022a54aa93bba4ec936169/68747470733a2f2f696d67323031382e636e626c6f67732e636f6d2f626c6f672f313736353439362f3230323030322f313736353439362d32303230303231383132343530373033382d313630393738313530382e6a7067)  
+**5.测试链接是否正常**  
+[![18.png](https://i.postimg.cc/D0KFGg48/18.png)](https://postimg.cc/dknzPGBY)
 
+出现延迟信息就表明链接正常  
+[![19.jpg](https://i.postimg.cc/X7J185KJ/19.jpg)](https://postimg.cc/G9Wj3H5w)  
 
-**打开PAC模式(意思是自动选择是否走vpn代理，一般国内域名则不走代理)**   
+6.打开代理服务  
+[![20.jpg](https://i.postimg.cc/tCFdFt7W/20.jpg)](https://postimg.cc/nCcQJm4h)  
 
-![6](https://camo.githubusercontent.com/e289e32bac11706a60cbe88a0713d8d758587b0909689d7ba876ca34192c9f54/68747470733a2f2f696d67323031382e636e626c6f67732e636f6d2f626c6f672f313736353439362f3230323030322f313736353439362d32303230303231383132343531303037372d313433323736313135352e6a7067)
-
+7.首次打开软件 需要下载一些配置，等它下载完成就可以上网了  
+[![21.jpg](https://i.postimg.cc/43yBv7DG/21.jpg)](https://postimg.cc/gw9VmJct)  
 <br>
 <br>
 
