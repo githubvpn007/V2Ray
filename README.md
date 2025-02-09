@@ -207,7 +207,8 @@ OK，出现这个界面就表示 V2Ray 已经安装完成了。
 测试端口是否能连接上：
 打开：[https://ping.sx/check-port](https://ping.sx/check-port)  
 **Target** 写你的 **VPS IP**，**Port** 写 V2Ray 的端口，然后点击 Check，如果 REACHABILITY 显示 Timeout，那是无法连接上端口
--提醒，你可以使用命令 v2ray ip 查看 VPS IP。
+-提醒，你可以使用命令 v2ray ip 查看 VPS IP。  
+[![image-3-1024x597.png](https://i.postimg.cc/sXr19D2P/image-3-1024x597.png)](https://postimg.cc/yJLV7KcW)
 
 #### 这时候有两种办法：
 1.关闭防火墙，执行如下命令：
